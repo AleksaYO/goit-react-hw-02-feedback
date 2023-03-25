@@ -13,7 +13,7 @@ export function Statistics({
         <li className={css.item}>Bad: {state.bad}</li>
         <li className={css.item}>Total: {countTotalFeedback()}</li>
         <li className={css.item}>
-          Percent: {countPositiveFeedbackPercentage()}%
+          Positive feedback: {countPositiveFeedbackPercentage()}%
         </li>
       </ul>
     </>
